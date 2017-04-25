@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Data.SQLite.Linq.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory">
+            <summary>Shim type of System.Data.SQLite.Linq.SQLiteProviderFactory</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.#ctor(System.Data.SQLite.Linq.SQLiteProviderFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.Bind(System.IServiceProvider)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CheckDisposed">
+            <summary>Sets the shim of SQLiteProviderFactory.CheckDisposed()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.Constructor">
+            <summary>Sets the shim of SQLiteProviderFactory.SQLiteProviderFactory()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateCommand">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateCommand()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateCommandBuilder">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateCommandBuilder()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateConnection">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateConnection()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateConnectionStringBuilder">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateConnectionStringBuilder()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateDataAdapter">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateDataAdapter()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.CreateParameter">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateParameter()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.Dispose">
+            <summary>Sets the shim of SQLiteProviderFactory.Dispose()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.DisposeBoolean">
+            <summary>Sets the shim of SQLiteProviderFactory.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.GetServiceType">
+            <summary>Sets the shim of SQLiteProviderFactory.GetService(Type serviceType)</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.StaticConstructor">
+            <summary>Sets the shim of SQLiteProviderFactory.SQLiteProviderFactory()</summary>
+        </member>
+        <member name="T:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CheckDisposed">
+            <summary>Sets the shim of SQLiteProviderFactory.CheckDisposed()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateCommand">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateCommand()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateCommandBuilder">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateCommandBuilder()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateConnection">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateConnection()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateConnectionStringBuilder">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateConnectionStringBuilder()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateDataAdapter">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateDataAdapter()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.CreateParameter">
+            <summary>Sets the shim of SQLiteProviderFactory.CreateParameter()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.Dispose">
+            <summary>Sets the shim of SQLiteProviderFactory.Dispose()</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of SQLiteProviderFactory.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.Data.SQLite.Linq.Fakes.ShimSQLiteProviderFactory.AllInstances.GetServiceType">
+            <summary>Sets the shim of SQLiteProviderFactory.GetService(Type serviceType)</summary>
+        </member>
+    </members>
+</doc>
